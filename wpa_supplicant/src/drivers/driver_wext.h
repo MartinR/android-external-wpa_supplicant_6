@@ -47,6 +47,8 @@ struct wpa_driver_wext_data {
 	int errors;
 	int driver_is_loaded;
 	int skip_disconnect;
+	char ssid[32];
+	int ssid_len;
 #endif
 };
 
